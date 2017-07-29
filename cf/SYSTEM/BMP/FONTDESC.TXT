@@ -1,0 +1,142 @@
+/ Comment lines start with a  forward slash
+/
+/ The font description file consists of the following fields:
+/	Font index, Face, Bold, Underline, Interchar, slant, WordSpace, 
+/	MLSpace, Horizontal Alignment, Vertical Alignment, Descriptor Index
+/
+/ The allowable values for each field may be numeric or text:
+/ The font index field - the index of the font associated with this 
+/ descriptor (references FONT.DIR)
+/	nnn
+/
+/ Font facing - the facing value of this font - the value Proportional 
+/ is the same as the number 128 the value Fixed is the same as the number 0
+/	Proportional
+/	Fixed
+/	128
+/	0
+/
+/ Font bolding - the bolding value of this font - the value Bold 
+/ is the same as the number 1 the value Normal is the same as the number 0
+/	Bold
+/	Normal
+/	1
+/	0
+/
+/ Font underline - the underline value of this font - the value Underline 
+/ is the same as the number 4 the value Normal is the same as the number 0
+
+/	Underline
+/	Normal
+/	4
+/	0
+/
+/ Font intercharacter gap - the intercharacter gap value of this font 
+/ is a number between 0 and 255
+/	nnn
+/
+/ Font slant - the slant value of this font is a number between -900 and 
+/ 900 in tenths of a degree
+/	nnn
+/
+/ Font wordspace - the wordspace value of this font is a number between 0 
+/ and 255 which is not used for anything
+/	nnn
+/
+/ Font MLSpace - the MLSpace value of this font is a number between 0 and 
+/ 255 which is not used for anything 
+/	nnn
+/
+/ Font horizontal alignment - the Horizontal Alignment value of this font 
+/ is the horizontal line justification.  AlignLeft is the same as the 
+/ number 0.  AlignCenter is the same as the number 1.  AlignRight is the 
+/ same as the number 2.  AlignFull is the same as the number 3.
+/	AlignLeft
+/	AlignCenter
+/	AlignRight
+/	AlignFull
+/	0
+/	1
+/	2
+/	3
+/
+/ Font vertical alignment - the Vertical Alignment value of this font is 
+/ the vertical line justification.  AlignBaseline is the same as the number 
+/ 0.  AlignBottom is the same as the number 1.  AlignMiddle is the same as 
+/ the number 2.  AlignTop is the same as the number 3.
+/	AlignBaseline
+/	AlignBottom
+/	AlignMiddle
+/	AlignTop
+/	0
+/	1
+/	2
+/	3
+/
+/ The descriptor index field - the Descriptor Index is the index location 
+/ of the descriptor value in the descriptor table - the values range from 0 
+/ to 255 with 0 to 7 used to store the system font descriptors. Font 
+/ descriptors are NOT allowed to use the same index but MAY reuse font 
+/ indices
+/	nnn
+/
+/
+
+/ 0:Candidate Name
+0, Proportional, Normal, Normal, 0, 0, 0, 0, alignLeft, alignMiddle, 0
+/ 1:Contest Title
+1, Proportional, Normal, Normal, 0, 0, 0, 0, alignCenter, alignMiddle, 1
+/ 2:Contest Extra
+2, Proportional, Normal, Normal, 0, 0, 0, 0, alignLeft, alignMiddle, 2
+/ 3:Party Name
+3, Proportional, Normal, Normal, 0, 0, 0, 0, alignLeft, alignMiddle, 3
+/ 4:Page Navigator Text
+4, Proportional, 1, 2, 3, 15, 0, 0, alignCenter, alignMiddle, 4
+/ 5:Default Menuet Form Font
+5, Proportional, 1, 2, 0, 0, 0, 0, alignCenter, alignMiddle, 5
+/ 6:System96
+6, Proportional, 1, 2, 0, 0, 0, 2, alignCenter, alignMiddle, 6
+/ 7:Button Labels
+0, Proportional, 1, 0, 0, 0, 0, 0, alignCenter, alignMiddle, 7
+/ 8:Election Info Font
+7, Proportional, 1, 2, 0, 0, 0, 0, alignCenter, alignMiddle, 8
+/ 9:Summary Font
+8, Proportional, 1, 2, 0, 0, 0, 0, alignCenter, alignMiddle, 9
+
+/Arial 8 to 24
+10, Proportional, Normal, Normal, 0, 0, 0, 0, AlignLeft, AlignMiddle, 10
+11, Proportional, Normal, Normal, 0, 0, 0, 0, AlignLeft, AlignMiddle, 11
+12, Proportional, Normal, Normal, 0, 0, 0, 0, AlignLeft, AlignMiddle, 12
+13, Proportional, Normal, Normal, 0, 0, 0, 0, AlignLeft, AlignMiddle, 13
+14, Proportional, Normal, Normal, 0, 0, 0, 0, AlignLeft, AlignMiddle, 14
+15, Proportional, Normal, Normal, 0, 0, 0, 0, AlignLeft, AlignMiddle, 15
+16, Proportional, Normal, Normal, 0, 0, 0, 0, AlignLeft, AlignMiddle, 16
+17, Proportional, Normal, Normal, 0, 0, 0, 0, AlignLeft, AlignMiddle, 17
+18, Proportional, Normal, Normal, 0, 0, 0, 0, AlignLeft, AlignMiddle, 18
+19, Proportional, Normal, Normal, 0, 0, 0, 0, AlignLeft, AlignMiddle, 19
+
+/Arial Narrow 8 to 24
+20, Proportional, Normal, Normal, 0, 0, 0, 0, AlignLeft, AlignMiddle, 20
+21, Proportional, Normal, Normal, 0, 0, 0, 0, AlignLeft, AlignMiddle, 21
+22, Proportional, Normal, Normal, 0, 0, 0, 0, AlignLeft, AlignMiddle, 22
+23, Proportional, Normal, Normal, 0, 0, 0, 0, AlignLeft, AlignMiddle, 23
+24, Proportional, Normal, Normal, 0, 0, 0, 0, AlignLeft, AlignMiddle, 24
+25, Proportional, Normal, Normal, 0, 0, 0, 0, AlignLeft, AlignMiddle, 25
+26, Proportional, Normal, Normal, 0, 0, 0, 0, AlignLeft, AlignMiddle, 26
+27, Proportional, Normal, Normal, 0, 0, 0, 0, AlignLeft, AlignMiddle, 27
+28, Proportional, Normal, Normal, 0, 0, 0, 0, AlignLeft, AlignMiddle, 28
+29, Proportional, Normal, Normal, 0, 0, 0, 0, AlignLeft, AlignMiddle, 29
+
+/Times 8 to 24
+30, Proportional, Normal, Normal, 0, 0, 0, 0, AlignLeft, AlignMiddle, 30
+31, Proportional, Normal, Normal, 0, 0, 0, 0, AlignLeft, AlignMiddle, 31
+32, Proportional, Normal, Normal, 0, 0, 0, 0, AlignLeft, AlignMiddle, 32
+33, Proportional, Normal, Normal, 0, 0, 0, 0, AlignLeft, AlignMiddle, 33
+34, Proportional, Normal, Normal, 0, 0, 0, 0, AlignLeft, AlignMiddle, 34
+35, Proportional, Normal, Normal, 0, 0, 0, 0, AlignLeft, AlignMiddle, 35
+36, Proportional, Normal, Normal, 0, 0, 0, 0, AlignLeft, AlignMiddle, 36
+37, Proportional, Normal, Normal, 0, 0, 0, 0, AlignLeft, AlignMiddle, 37
+38, Proportional, Normal, Normal, 0, 0, 0, 0, AlignLeft, AlignMiddle, 38
+39, Proportional, Normal, Normal, 0, 0, 0, 0, AlignLeft, AlignMiddle, 39
+
+/ End of file

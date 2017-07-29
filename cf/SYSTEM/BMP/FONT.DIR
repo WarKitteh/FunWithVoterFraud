@@ -1,0 +1,66 @@
+/*****************************************************************************
+/
+/ Filename: font.dir
+/
+/ $Source: T:/edge/software/graphics/bmp/rcs/FONT.DIR $
+/ Last Saved Revision Number $Revision: 1.4 $
+/ Last Saved Revision $Date: 2000/02/16 16:43:13Z $
+/ Last Saved Revision $Author: kcrouse $
+/
+/ Original Author:  Kerry C.  Initial Release Date: 02/08/00
+/
+/ File Description:		This file sets the system fonts.
+/
+/ (c) Copyright 2000, Sunrise Labs Inc.
+/ 175 Ammon Drive, Manchester, NH 03103
+/
+/ Revision History:
+/ Rev. mm/dd/yy Revisor		Description
+/ 1.4  02/08/00 Kerry C.	Added header.
+/ 1.3  01/29/00 driendeau	Added system72.fnt font.
+/ 1.2  01/19/00 Kerry C.	Added MenuetFx.
+/ 1.1  01/19/00 Kerry C.	Initial release.
+/
+/****************************************************************************/
+/ Font Filename, Font Index
+CANDIDAT.FNT, 0
+CONTEST.FNT, 1
+ARIAL10.FNT, 2
+ARIALN12.FNT, 3
+NAVIGATE.FNT, 4
+MENUET.FNT, 5
+SYSTEM96.FNT, 6
+MENUETFX.FNT, 7
+COUR20BN.FNT, 8
+ARIAL8.FNT, 9
+ARIAL9.FNT, 10
+ARIAL10.FNT, 11
+ARIAL12.FNT, 12
+ARIAL14.FNT, 13
+ARIAL16.FNT, 14
+ARIAL18.FNT, 15
+ARIAL20.FNT, 16
+ARIAL22.FNT, 17
+ARIAL24.FNT, 18
+ARIALN8.FNT, 19
+ARIALN9.FNT, 20
+ARIALN10.FNT, 21
+ARIALN12.FNT, 22
+ARIALN14.FNT, 23
+ARIALN16.FNT, 24
+ARIALN18.FNT, 25
+ARIALN20.FNT, 26
+ARIALN22.FNT, 27
+ARIALN24.FNT, 28
+TIMES8.FNT, 29
+TIMES9.FNT, 30
+TIMES10.FNT, 31
+TIMES12.FNT, 32
+TIMES14.FNT, 33
+TIMES16.FNT, 34
+TIMES18.FNT, 35
+TIMES20.FNT, 36
+TIMES22.FNT, 37
+TIMES24.FNT, 38
+TIMES24.FNT, 39
+/ End of file
